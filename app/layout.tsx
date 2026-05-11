@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SWRegistration from "./SWRegistration";
 import {
   Geist,
   Geist_Mono,
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
   title: "MJ Experience",
   description:
     "Interactive Michael Jackson experience",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -110,6 +112,7 @@ export default function RootLayout({
         <main className="flex-1">
           {children}
         </main>
+        <SWRegistration/>
       </body>
     </html>
   );
