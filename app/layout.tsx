@@ -81,28 +81,7 @@ export default function RootLayout({
                   Home
                 </Link>
 
-                <Link
-                  href="/musica"
-                  className="
-                    px-5
-                    py-2.5
-                    rounded-2xl
-                    bg-zinc-900
-                    border
-                    border-zinc-800
-                    hover:border-white
-                    hover:scale-105
-                    active:scale-95
-                    transition
-                    text-sm
-                    sm:text-base
-                    font-bold
-                    text-center
-                    min-w-[110px]
-                  "
-                >
-                  Música
-                </Link>
+                
                 <Link
                   href="/presentacion"
                   className="
