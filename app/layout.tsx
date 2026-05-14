@@ -103,6 +103,28 @@ export default function RootLayout({
                 >
                   Música
                 </Link>
+                <Link
+                  href="/presentacion"
+                  className="
+    px-5
+    py-2.5
+    rounded-2xl
+    bg-zinc-900
+    border
+    border-zinc-800
+    hover:border-white
+    hover:scale-105
+    active:scale-95
+    transition
+    text-sm
+    sm:text-base
+    font-bold
+    text-center
+    min-w-[110px]
+  "
+                >
+                  Baile
+                </Link>
               </nav>
             </div>
           </div>
@@ -112,7 +134,7 @@ export default function RootLayout({
         <main className="flex-1">
           {children}
         </main>
-        <SWRegistration/>
+        <SWRegistration />
       </body>
     </html>
   );
